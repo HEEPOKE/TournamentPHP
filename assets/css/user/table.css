@@ -1,0 +1,31 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.m-top {
+    padding-top: 100px;
+}
+
+
+
+/* .card_team {
+
+} */
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+.team_table {
+    height: 40px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(50, 61, 90);
+    border: 3px solid #e98119;
+}
+

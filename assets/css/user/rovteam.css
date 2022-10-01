@@ -1,0 +1,560 @@
+.setclose {
+    width: 40px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-1 {
+        flex: 0 0 auto;
+        width: 125px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 125px;
+    }
+}
+
+.memberlogo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.modal-header {
+    background-color: #ff7211;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal-title {
+    font-size: 20px;
+}
+
+.modal-body {
+    background-color: #3e3e3e;
+}
+
+.card-img-toplogo {
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+
+
+.model-bgicon {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.card {
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 300px;
+    background-color: #50504c;
+    border: solid 1px #ffffff;
+}
+
+.btn-details {
+    border-radius: 20px;
+    margin: -5px;
+    background-color: #ff7211;
+    margin-top: 5%;
+    font-family: kanit;
+    color: aliceblue;
+    margin-left: -15px;
+    font-size: 16px;
+
+
+}
+
+.card-img-top {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card-body {
+    height: 10px;
+    margin-left: 0;
+}
+
+.card-title {
+    color: #ff7211;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.rovteam {
+    font-family: kanit;
+    /* margin-left: -50px; */
+    margin-top: 15px;
+}
+
+.rov-teamdetails {
+    font-family: kanit;
+    margin-left: 50px;
+}
+
+.modal-title {
+    color: #ffff;
+}
+
+/* .modal-content {
+    background-color: #50504c;
+} */
+
+@media screen and (max-width: 1400px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 10%;
+
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -15px;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 205px;
+        margin-top: 25px;
+        margin-left: 20px;
+        height: 240px;
+        background-color: #50504c;
+        border: solid 1px #ffffff;
+    }
+
+    .card-body {
+        color: #fff;
+        /* font-size: 24px; */
+        font-family: kanit;
+        margin-left: 0px;
+    }
+
+    .card-title {
+        color: #ff7211;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 125px;
+        width: 125px;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 5%;
+
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -15px;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 205px;
+        margin-top: 25px;
+        margin-left: 20px;
+        height: 240px;
+        background-color: #50504c;
+        border: solid 1px #ffffff;
+    }
+
+    .card-body {
+        color: #fff;
+        /* font-size: 24px; */
+        font-family: kanit;
+        margin-left: 0px;
+    }
+
+    .card-title {
+        color: #ff7211;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 125px;
+        width: 125px;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 0;
+
+
+    }
+
+    .card {
+        /* width: 155px; */
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 183px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 16px;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 85px;
+        width: 85px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -16px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -18px;
+        width: 95px;
+        font-size: 8px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 0;
+
+
+    }
+
+    .card {
+        width: 155px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 183px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .card-img-top {
+        height: 85px;
+        width: 85px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -16px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -18px;
+        width: 95px;
+        font-size: 8px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: -6px;
+    }
+
+    .card {
+        width: 155px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 183px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 85px;
+        width: 85px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -16px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -18px;
+        width: 95px;
+        font-size: 8px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 10px;
+
+
+    }
+
+    .card {
+        width: 140px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 183px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -10px;
+        font-size: 8px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -20px;
+        width: 105px;
+        font-size: 8px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 333px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 0;
+
+
+    }
+
+    .card {
+        width: 130px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 155px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 65px;
+        width: 65px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -16px;
+        font-size: 8px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -25px;
+        width: 105px;
+        font-size: 3px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+
+}
+
+
+@media screen and (max-width: 314px) {
+
+    .rov-teamdetails {
+        width: 100%;
+        font-family: kanit;
+        margin-left: 0;
+
+
+    }
+
+    .card {
+        width: 125px;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 155px;
+        background-color: #50504c;
+    }
+
+    .card-title {
+        color: #ff7211;
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    .card-img-top {
+        height: 65px;
+        width: 65px;
+        border-radius: 10px;
+        margin-top: -5px;
+        margin-left: -16px;
+        font-size: 8px;
+    }
+
+    .btn-details {
+        border-radius: 20px;
+        margin: -5px;
+        background-color: #ff7211;
+        font-family: kanit;
+        color: aliceblue;
+        margin-left: -25px;
+        width: 105px;
+        font-size: 3px;
+    }
+
+    .card-body {
+        color: #fff;
+        font-size: 24px;
+        font-family: kanit;
+        margin-left: 7px;
+    }
+
+}
+
+.bg-color {
+    background-color: #0000009c;
+    width: auto;
+}
+
+.rovteam {
+    font-family: kanit;
+    margin-left: 10px;
+}
+
+.btn-close {
+    color: #f9021a;
+    background-color: #f9021a;
+}
+
+.fa-close:hover {
+    color: #f9021a;
+
+}

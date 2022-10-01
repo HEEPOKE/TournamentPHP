@@ -1,0 +1,222 @@
+.addteam {
+    background-color: #46484b;
+}
+
+.addbutteam {
+    background-color: #2d3550;
+    font-size: 25px;
+    width: 90%;
+    margin-left: 18px;
+}
+
+.addbut {
+    background-color: #2d3550;
+    margin-left: 35px;
+    width: 80%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .addbutteam {
+        background-color: #2d3550;
+        font-size: 25px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .addbut {
+        background-color: #2d3550;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 20px;
+    }
+}
+
+.picc {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px;
+    
+   
+}
+
+.inputdata {
+    background-color: #101832;
+}
+
+.backimg {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: transparent;
+}
+
+.spanimg {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(183, 171, 171, 0.726);
+    color: #fff;
+}
+
+.spanimg:hover {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ff7211;
+    color: #fff;
+}
+
+.submitbut {
+    background-color: #ff7211;
+}
+
+.PP {
+    border: 0px;
+    margin-top: -15px;
+}
+
+.linkcopy {
+    background-color: #ff7211;
+}
+
+.linkcopy:hover {
+    background-color: #dfa67fca;
+}
+
+.no {
+    background: none;
+    border: none;
+    position: relative;
+    /* bottom: 63px; */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bottomright {
+    position: relative;
+    background-size: contain;
+    top: 0px;
+    left: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .bottomright {
+        position: relative;
+        background-size: contain;
+        top: 0px;
+        left: 75px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bottomright {
+        position: relative;
+        background-size: contain;
+        top: 0px;
+        left: 65px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bottomright {
+        position: relative;
+        background-size: contain;
+        top: 0px;
+        left: 55px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .bottomright {
+        position: relative;
+        background-size: contain;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+.btn-lg {
+    height: 60px;
+}
+
+.btn-card {
+    background-color: #ff7211;
+    padding: 10px;
+    color: #fff;
+    animation: anim_btn_register 2.5s alternate infinite;
+    border-radius: 50px;
+    font-family: kanit;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .btn-card {
+        background-color: #ff7211;
+        padding: 10px;
+        color: #fff;
+        animation: anim_btn_register 2.5s alternate infinite;
+        border-radius: 50px;
+        font-family: kanit;
+        margin: 0 auto;
+        margin-right: 20px;
+    }
+
+}
+
+.lr {
+    margin-left: 35px;
+    margin-right: 35px
+}
+
+.pic-top {
+    padding-top: 40px;
+}
+
+.pic-top2 {
+    margin-left: 25px;
+}
+
+.col-form-label {
+    text-align: right;
+    font-size: 17px;
+}
+
+.bg-inputdata {
+    background-color: #2d3550;
+    color: #ffff;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#createteam-web {
+    display: block;
+}
+
+#createteam-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    #createteam-web {
+        display: none;
+    }
+
+    #createteam-mobile {
+        display: block;
+    }
+}
