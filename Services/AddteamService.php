@@ -97,7 +97,7 @@ if ($teamid != "") {
                 'Content-Type: application/x-www-form-urlencoded',
                 'Authorization: Bearer ' . $token
             ];
-              $fields     = "message=การสมัครทีมใหม่ \nชื่อทีม : " . $team_name;
+            $fields     = "message=การสมัครทีมใหม่ \nชื่อทีม : " . $team_name;
 
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
@@ -110,11 +110,11 @@ if ($teamid != "") {
 
             // var_dump($result);
             $result = json_decode($result, TRUE);
-            
+
             $_SESSION['team_id'] = $team_id;
             header("Location: ../?pages=createteam&detail=teamdetail&team_id=" . $team_id);
         } else {
-            echo '<script>alert("สร้างทีมไม่สำเร็จ")window.location.href="?pages=createteam&detail=editteamdetail";;</script>';
+            echo '<script>alert("สร้างทีมไม่สำเร็จ")window.location.href="?pages=createteam&detail=editteamdetail";</script>';
         }
     }
     exit;
